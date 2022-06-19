@@ -8,7 +8,7 @@ J'ai cloné ces DVDs dans des images ISO pour ne plus avoir à utiliser de lecte
  et parer aux dégradations éventuelles des supports qui restent fragiles. 
 VLC et d'autres lecteurs permettent une bonne ergonomie pour la lecture de vidéos même depuis une image ISO. 
 Poutant pour passer d'un DVD à l'autre, ce n'est pas pratique : il faut cliquer sur le DVD voulu, cliquer sur l'épisode, etc. 
-L'objectif est de générer des playlists de tous les épisodes depuis les images ISO et ainsi donner facilement accès à toute la série.
+L'objectif est de générer des playlists de tous les épisodes des images ISO et ainsi donner facilement accès à toute la série.
 
 # Essai avec mes DVDs de Friends
 Brouillon à réorganiser
