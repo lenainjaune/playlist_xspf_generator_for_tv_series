@@ -13,6 +13,8 @@ L'objectif est de générer des playlists de tous les épisodes depuis les image
 # Essai avec mes DVDs de Friends
 Brouillon à réorganiser
 
+J'ai acheté presque tous les DVDs de Friends (multi-langues) et ma compagne avait ceux qui me manquaient ; par ailleurs j'ai téléchargé presque tous les épisodes au format conteneur AVI. Au final toutes les vidéos AVI sont déjà sur les DVDs
+
 	# Ce script permet donc de générer une playlist au format ouvert XSPF de tous les épisodes de Friends (en excluant les NON épisodes comme les bonus) depuis les fichiers images ISO des DVDs physiques.
 	# Les épisodes seront identifiés selon la saison et le numéro dans la saison (si on a Internet on peut même obtenir les titres réels depuis Wikipédia).
 	# Les commandes utiles pour lire avec VLC sont proposées en bas ainsi que la possibilité de configurer directement dans la playlist (par exemple pour avoir une piste en version FR sous-titrée EN - FRSTEN)
