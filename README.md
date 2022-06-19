@@ -99,7 +99,7 @@ J'ai acheté presque tous les DVDs de Friends (multi-langues) et ma compagne ava
 	  echo "$l" | html2text -utf8 -width ${#l} ; \
 	 done ; \
 	 unset IFS ; \
-	) > "$DOSSIER/${ID_SERIE}_episodes.txt"
+	) > "$DOSSIER/${ID_SERIE}_ALL_episodes.txt"
 
 
 	# Générer la playlist
