@@ -23,6 +23,8 @@ J'ai acheté presque tous les DVDs de Friends (multi-langues) et ma compagne ava
 	# Nécessite lsdvd wget html2text
 
 
+        # TODO : quoi faire quand les numéros de pistes de sous titres changent d'un support à l'autre (ex : STFR S01x01 en piste 2 et S07x15 en piste 3) 
+
 	# TODO : en faire un vrai script avec en param : DOSSIER="/media/VBIG/FILMS_ISO/" ; ID_SERIE="FRIENDS" 
 
 
@@ -234,7 +236,7 @@ J'ai acheté presque tous les DVDs de Friends (multi-langues) et ma compagne ava
 
 	Notes : 
 	- Langage audio : fr ou en (sur certains DVD on peut utiliser d autes langues (lsdvd -x pour les lister)
-	- Langage sous-titres : 0 (en) ou 1 (fr)
+	- Langage sous-titres : 0 (en) ou 1 (fr) => non ça dépend des DVDs et ce n'est pas normalisé
 
 
 	# Configurer dans la playlist
