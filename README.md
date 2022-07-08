@@ -24,6 +24,7 @@ J'ai acheté presque tous les DVDs de Friends (multi-langues) et ma compagne ava
 
 
         # TODO : quoi faire quand les numéros de pistes de sous titres changent d'un support à l'autre (ex : STFR S01x01 en piste 2 et S07x15 en piste 3) 
+	=> à priori --sub-language "fr" règle le problème
 
 	# TODO : en faire un vrai script avec en param : DOSSIER="/media/VBIG/FILMS_ISO/" ; ID_SERIE="FRIENDS" 
 
@@ -229,14 +230,17 @@ J'ai acheté presque tous les DVDs de Friends (multi-langues) et ma compagne ava
 	# Configurer VLC
 
 	# VFSTEN
-	vlc --sub-track=0 --audio-language=fr "$DOSSIER/${ID_SERIE}_ALL.xspf"
+	#vlc --sub-track=0 --audio-language=fr "$DOSSIER/${ID_SERIE}_ALL.xspf"
+	vlc --sub-language "en" --audio-language=fr "$DOSSIER/${ID_SERIE}_ALL.xspf"
 
 	# VOSTFR
-	vlc --sub-track=1 --audio-language=en "$DOSSIER/${ID_SERIE}_ALL.xspf"
+	#vlc --sub-track=1 --audio-language=en "$DOSSIER/${ID_SERIE}_ALL.xspf"
+	vlc --sub-language "fr" --audio-language=en "$DOSSIER/${ID_SERIE}_ALL.xspf"
 
 	Notes : 
 	- Langage audio : fr ou en (sur certains DVD on peut utiliser d autes langues (lsdvd -x pour les lister)
-	- Langage sous-titres : 0 (en) ou 1 (fr) => non ça dépend des DVDs et ce n'est pas normalisé
+	- Langage sous-titres : "fr" ou "en"
+	note : 0 (en) ou 1 (fr) pose problème car les numéros de pistes de sous-titres ne sont pas constants
 
 
 	# Configurer dans la playlist
